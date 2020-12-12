@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UpdateMuayeneDoctor"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/update_muayene_ana_tani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ana tanı giriniz"/>
+    <EditText
+        android:id="@+id/update_muayene_ek_tani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ek tanı giriniz"/>
+    <Spinner
+        android:id="@+id/spinner_sikayet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/update_muayene_agirlik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ağırlık giriniz"/>
+    <EditText
+        android:id="@+id/update_muayene_boy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Boy giriniz"/>
+    <EditText
+        android:id="@+id/update_muayene_nabiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nabız giriniz"/>
+    <Button
+        android:id="@+id/muayene_update_button"
+        android:text="Güncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="muayeneGuncelleOnClick"/>
+
+</LinearLayout>

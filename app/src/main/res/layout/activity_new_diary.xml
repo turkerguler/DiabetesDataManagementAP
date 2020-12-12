@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NewDiaryActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tarih_seciniz"
+        android:onClick="showDatePickerDialog" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saat_seciniz"
+        android:onClick="showTimePickerDialog" />
+
+
+
+    <TextView
+        android:id="@+id/saat_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/saat_seciniz"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/new_diary_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/deger_giriniz"/>
+    <Button
+        android:id="@+id/new_diary_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kaydetOnClick"
+        android:text="@string/kaydet"/>
+
+
+
+</LinearLayout>

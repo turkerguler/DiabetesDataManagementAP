@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SingUpActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/sign_up_tc"
+        android:hint="@string/tc_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sign_up_pass"
+        android:hint="@string/sifre_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sign_up_name"
+        android:hint="@string/isim_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sign_up_surname"
+        android:hint="@string/soyad_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_gender"
+        android:hint="@string/cinsiyet_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sign_up_button"
+        android:text="@string/kayit_ol"
+        android:onClick="signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

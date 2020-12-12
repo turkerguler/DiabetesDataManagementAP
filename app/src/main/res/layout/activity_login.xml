@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/login_id_et"
+        android:hint="@string/tc_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/login_pass_et"
+        android:hint="@string/sifre_giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/login_in_button"
+        android:text="@string/giris"
+        android:onClick="signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/login_up_button"
+        android:text="@string/kayit_ol"
+        android:onClick="signUpClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/login_doctor_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doctorLoginClick"
+        android:text="Doktor Girişi"/>
+
+</LinearLayout>

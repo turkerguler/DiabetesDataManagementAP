@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MuayeneActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </android.support.v7.widget.AppCompatSpinner>
+    <Spinner
+        android:id="@+id/spinner_sikayet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <Button
+        android:id="@+id/muayene_button"
+        android:text="@string/bir_sikayet_olustur"
+        android:onClick="muayeneKayitonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
