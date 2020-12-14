@@ -29,3 +29,12 @@ Kullanıcı giriş yaptıktan sonra karşısına günlük kayıtlarını bulabil
 
 Doktor giriş yaptıktan sonra karşısına çıkan ekranda kendisine gelen şikayet kayıtları listelenir. Bu kayıtların her biri muayene olarak geçmektedir. Doktor dilerse karşısındaki kaydı sola kaydırarak muayene bilgilerini güncelleyebilir, sola kaydırır ise kullanıcıya tetkik önerebilir. 
 
+
+![2019-03-23-084517_1366x768_scrot](https://user-images.githubusercontent.com/55502819/102108221-b4ae8800-3e43-11eb-8fbc-678101224281.png)
+![2019-03-23-084529_1366x768_scrot](https://user-images.githubusercontent.com/55502819/102108230-b6784b80-3e43-11eb-8b56-fe10963b8686.png)
+
+Şekil 7) Muayene güncelleme  ekranı 
+
+Şekil 8) Tetkik önerme ekranı
+
+Doktor sola kaydırdığı kayıtların muayene bilgilerini Ana tanı, ek tanı, şikayet, ağırlık, boy, nabız gibi değerleri güncelleyebilir. Sağa kaydırdığında ise tetkik önerme ekranından kullanıcıya tetkik önerebilir.
