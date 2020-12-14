@@ -46,3 +46,19 @@ Doktor sola kaydırdığı kayıtların muayene bilgilerini Ana tanı, ek tanı,
 Kullanıcı tarafına tekrar döndüğümüzde şikayetlerimize karşı istenen tetkikler menü deki tetkikler sekmesinden görülebilir. Kullanıcı bu tetkiklere tetkik sonuçlarını girerek doktora geri yönlendirebilir. 
 	Doktor tetkik sonuçlarına göre tanı koyabilir, yeni tetkik önerebilir, tedavi ve gözlemde bulunabilir. Doktor hastanın tedaviye uyup uymadığını takip edebilir. Tedavi sürecinde ilerleme kaydedilemez ise doktor yeniden ilaç ve ya egzersiz önerebilir.
 
+********************************************************************************************
+
+Uygulamaya doktor kaydı yapılamadığı için örnek doktor kayıtları
+(1,2,"Uzman","Ahmet","Galip")
+(2,3,"Uzman","Yeter","Bicer")
+Örnek Hasta kullanıcısı:
+(1,2,"ahmet","galip",date,"erkek");
+
+********************************************************************************************
+
+Sıradaki süreçte Activityler fragmentler ile yer değiştirelecektir. Sadece LoginActivity, DoctorActivity ve UserActivity kullanılacaktır. 
+Diğer süreçler planlama aşamasındadır...
+
+*******************************************************************************************
+
+MVVM with ROOM, RxJava, DaggerHilt, Retrofit.
