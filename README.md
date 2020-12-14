@@ -38,3 +38,11 @@ Doktor giriş yaptıktan sonra karşısına çıkan ekranda kendisine gelen şik
 Şekil 8) Tetkik önerme ekranı
 
 Doktor sola kaydırdığı kayıtların muayene bilgilerini Ana tanı, ek tanı, şikayet, ağırlık, boy, nabız gibi değerleri güncelleyebilir. Sağa kaydırdığında ise tetkik önerme ekranından kullanıcıya tetkik önerebilir.
+
+![2019-03-23-084639_1366x768_scrot](https://user-images.githubusercontent.com/55502819/102108431-fa6b5080-3e43-11eb-8396-d8afd83be7f7.png)
+
+Şekil 9) Önerilen tetkikler ekranı
+
+Kullanıcı tarafına tekrar döndüğümüzde şikayetlerimize karşı istenen tetkikler menü deki tetkikler sekmesinden görülebilir. Kullanıcı bu tetkiklere tetkik sonuçlarını girerek doktora geri yönlendirebilir. 
+	Doktor tetkik sonuçlarına göre tanı koyabilir, yeni tetkik önerebilir, tedavi ve gözlemde bulunabilir. Doktor hastanın tedaviye uyup uymadığını takip edebilir. Tedavi sürecinde ilerleme kaydedilemez ise doktor yeniden ilaç ve ya egzersiz önerebilir.
+
