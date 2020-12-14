@@ -20,3 +20,12 @@ Uygulama ilk açılışın da temel kullanıcılar için kimlik numarası ve şi
 Kullanıcı giriş yaptıktan sonra karşısına günlük kayıtlarını bulabileceği bir ekranla karşılaşır. Bu ekranda dilerse kayıtlarını sağa ve ya sola kaydırarak silebilir, sağ alt bölümdeki düğmeye tıklayarak yeni bir kayıt ekleme ekranına geçebilir. Ekranın sol üst kısmında ki menü işaretine tıklayarak açılan menüden bir şikayet kaydı oluşturabilir daha sonra şikayet kaydına doktordan gelen mesaj ve ya tetkik önerilme isteğinin öğrenebilir, gelen tetkik isteğine tetkik sonucunu cevap olarak gönderebilir.
 	Yeni bir günlük kayıt ekleme sekmesinde kullanıcı dilediği bir tarih ve saat seçebilir. Tarih ve saat seçmez ise o anki tarih ve saat  geçerli sayılacaktır. Tarih ve saat bölümünün altında kalan seçenekler düğmesinden açlık kan şekeri, insülin dozu, egzersiz miktarı vb. birçok seçeneği seçip değerini girerek kayıt oluşturabilir.
 
+![2019-03-23-084413_1366x768_scrot](https://user-images.githubusercontent.com/55502819/102107949-5d101c80-3e43-11eb-889b-a433ac128947.png)
+![2019-03-23-084506_1366x768_scrot](https://user-images.githubusercontent.com/55502819/102107965-639e9400-3e43-11eb-8767-5e3ca18410ff.png)
+
+Şekil 5) Şikayet bildirim ekranı
+
+Şekil 6) Doktor anasayfa ekranı
+
+Doktor giriş yaptıktan sonra karşısına çıkan ekranda kendisine gelen şikayet kayıtları listelenir. Bu kayıtların her biri muayene olarak geçmektedir. Doktor dilerse karşısındaki kaydı sola kaydırarak muayene bilgilerini güncelleyebilir, sola kaydırır ise kullanıcıya tetkik önerebilir. 
+
